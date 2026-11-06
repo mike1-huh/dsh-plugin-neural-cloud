@@ -1,0 +1,37 @@
+{
+  "name": "dsh-plugin-neural-cloud",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "云图（Neural Cloud）通用记忆引擎 —— 五工具 + 五区面板 + 四组接口设置",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "lib/*.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md"
+  ],
+  "dependencies": {},
+  "scripts": {
+    "test": "node test/run-all.mjs",
+    "smoke": "node test/run-all.mjs",
+    "live": "node test/live-check.mjs"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true
+    }
+  },
+  "license": "AGPL-3.0-or-later"
+}

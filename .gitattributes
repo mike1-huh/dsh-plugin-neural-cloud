@@ -1,0 +1,8 @@
+﻿# 让 .bat 保持 CRLF，避免别人拉下来双击就报错
+*.bat   text eol=crlf
+*.ps1   text eol=crlf
+*.js    text eol=lf
+*.json  text eol=lf
+*.md    text eol=lf
+# 引擎 jar 当二进制，别被当文本 diff
+*.jar   binary

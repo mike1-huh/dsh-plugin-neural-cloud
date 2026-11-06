@@ -1,0 +1,6 @@
+﻿node_modules/
+*.bak*
+*.log
+memory-store.json
+selfcheck.json
+.DS_Store

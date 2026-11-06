@@ -1,0 +1,10 @@
+# 云图（Neural Cloud）· 通用记忆引擎 —— DSH 插件（2026-10-28）
+# 五工具 + 提示词注入 + 五区面板 + 四组接口设置页。
+# 四组接口默认留空：面板设置页配置后写回本文件（key 只存本地 config.json）。
+- insert:
+    - id: neural-cloud
+      name: dsh-plugin-neural-cloud
+      config:
+        maxRecords: 20000
+        defaultLimit: 8
+        injectLimit: 6
