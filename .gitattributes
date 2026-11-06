@@ -1,4 +1,4 @@
-﻿# 让 .bat 保持 CRLF，避免别人拉下来双击就报错
+# 让 .bat 保持 CRLF，避免别人拉下来双击就报错
 *.bat   text eol=crlf
 *.ps1   text eol=crlf
 *.js    text eol=lf
